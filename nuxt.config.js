@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "ntsv-sik18",
+    title: "NTSV-SIK18 Project",
     htmlAttrs: {
       lang: "en"
     },
