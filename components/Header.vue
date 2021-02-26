@@ -1,6 +1,5 @@
 <template>
   <header class="max-w-5xl mx-auto py-8 flex">
-    <!-- Navbar -->
     <nav>
       <ul>
         <li>
@@ -9,7 +8,7 @@
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link class="text-teal-600 hover:underline" to="/en/blog">
+          <nuxt-link class="text-teal-600 hover:underline" to="/articles">
             Blog
           </nuxt-link>
         </li>
@@ -22,16 +21,15 @@
         />
       </a>
     </div>
-    <!-- Ganti bahasa -->
     <nav>
       <ul>
         <li>
-          <nuxt-link class="text-teal-600 hover:underline" to="/en/blog">
+          <nuxt-link class="text-teal-600 hover:underline" to="/">
             English
           </nuxt-link>
         </li>
         <li>
-          <nuxt-link class="text-teal-600 hover:underline" to="/de/blog">
+          <nuxt-link class="text-teal-600 hover:underline" to="/de">
             German
           </nuxt-link>
         </li>
